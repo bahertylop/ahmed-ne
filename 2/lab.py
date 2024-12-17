@@ -52,14 +52,14 @@ y_validation.unsqueeze_(1)
 # ------Подготовка датасета завершена--------:
 
 # Оптимизатор
-optimizer = torch.optim.Adam(net.parameters(), lr=0.01)  # Шаг обучения
+optimizer = torch.optim.Adam(net.sq, lr=0.01)  # Шаг обучения
 
 # Функция потерь (MSE)
 def loss(pred, target):
     return ((pred - target) ** 2).mean()
 
 # Обучение модели
-epochs = 2000  # Количество эпох
+epochs = 10000  # Количество эпох
 
 for epoch_index in range(epochs):
     optimizer.zero_grad()  # Обнуляем градиенты
