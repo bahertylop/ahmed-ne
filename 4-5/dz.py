@@ -11,6 +11,8 @@ np.random.seed(0)
 torch.manual_seed(0)
 torch.cuda.manual_seed(0)
 torch.backends.cudnn.deterministic = True
+# рассказать за сиды внутри
+
 
 # Загрузка датасета "wine" из sklearn
 wine = load_wine()
@@ -54,6 +56,7 @@ class WineNet(torch.nn.Module):
         x = self.fc3(x)
         return x
 
+#  вторая причина не применения софтаммакса
     # Метод для получения предсказаний (с Softmax)
     def inference(self, x):
         x = self.forward(x)
@@ -71,7 +74,7 @@ loss = torch.nn.CrossEntropyLoss()
 # Оптимизатор Adam
 optimizer = torch.optim.Adam(wine_net.parameters(), lr=1.0e-3)
 
-batch_size = 5  # Размер батча для обучения
+batch_size = 10  # Размер батча для обучения
 
 # Обучение сети
 for epoch in range(1000):  # Количество эпох
@@ -100,6 +103,7 @@ for epoch in range(1000):  # Количество эпох
     if epoch % 100 == 0:
         test_preds = wine_net.forward(X_test)
         test_preds = test_preds.argmax(dim=1)  # Получаем предсказанные классы
+        # почему номер макс жлемента является классом
         print((test_preds == y_test).float().mean())  # Выводим точность
 
 # Проверка количества входных признаков и финальной точности
