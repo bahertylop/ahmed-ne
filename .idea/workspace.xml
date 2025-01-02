@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="425eceec-d6ab-4497-b72d-03b1396759fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/6-7/accuracyPlots/RMSprop_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-7/accuracyPlots/Rprop_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-7/accuracyPlots/SGD_100_epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-7/accuracyPlots/adam_100Epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-7/answers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-7/lossFor250Epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-7/lossFor40Epochs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-7/lossForTrainAndValidate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-7/toGPUColab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4-5/dz.py" beforeDir="false" afterPath="$PROJECT_DIR$/4-5/dz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/dz.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/dz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python.dz (1)">
+}]]></component>
+  <component name="RunManager" selected="Python.dz (2)">
     <configuration name="dz (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ахмед" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -48,6 +58,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2/dz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dz (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ахмед" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6-7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-7/dz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,8 +108,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lossForTrainAndValidate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ахмед" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6-7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-7/lossForTrainAndValidate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dz (2)" />
+        <item itemvalue="Python.lossForTrainAndValidate" />
         <item itemvalue="Python.dz (1)" />
         <item itemvalue="Python.dz" />
       </list>
