@@ -3,15 +3,16 @@ import random
 import numpy as np
 import torchvision.datasets
 import matplotlib.pyplot as plt
+import time
 
-random.seed(125)
-np.random.seed(125)
-torch.manual_seed(125)
-torch.cuda.manual_seed(125)
-# torch.backends.cudnn.deterministic = True
+random.seed(0)
+np.random.seed(0)
+torch.manual_seed(0)
+torch.cuda.manual_seed(0)
+torch.backends.cudnn.deterministic = True
 
-MNIST_train = torchvision.datasets.MNIST('./', download=True, train=True)
-MNIST_test = torchvision.datasets.MNIST('./', download=True, train=False)
+MNIST_train = torchvision.datasets.MNIST('../', download=True, train=True)
+MNIST_test = torchvision.datasets.MNIST('../', download=True, train=False)
 
 X_train = MNIST_train.train_data
 y_train = MNIST_train.train_labels
@@ -50,44 +51,45 @@ mnist_net = MNISTNet(100)
 loss = torch.nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(mnist_net.parameters(), lr=1.0e-3)  # adam
 
-optimizer = torch.optim.SGD(mnist_net.parameters(), lr=1.0e-3)
-# SGD идет быстрее чем адам, но начальная точность и
-# точность дальше не такая большая
-
-# optimizer = torch.optim.Rprop(mnist_net.parameters(), lr=1.0e-3)
-# почти как SGD но не доучился за 100 эпох до 0.9
-
-# optimizer = torch.optim.RMSprop(mnist_net.parameters(), lr=1.0e-3)
-# что среднее между 1 и 2
-
 batch_size = 100
 
-test_accuracy_history = []
+train_loss_history = []
+validation_loss_history = []
+epochs = 100
 
-for epoch in range(100):
+start = time.time()
+
+for epoch in range(epochs):
+    train_loss = 0.0
     order = np.random.permutation(len(X_train))
 
     for start_index in range(0, len(X_train), batch_size):
         optimizer.zero_grad()
-
         batch_indexes = order[start_index:start_index + batch_size]
 
-        X_batch = X_train[batch_indexes]  # .to(device)
-        y_batch = y_train[batch_indexes]  # .to(device)
+        X_batch = X_train[batch_indexes]
+        y_batch = y_train[batch_indexes]
 
-        preds = mnist_net.forward(X_batch)
-
+        preds = mnist_net(X_batch)
         loss_value = loss(preds, y_batch)
         loss_value.backward()
-
         optimizer.step()
 
+        train_loss += loss_value.item()
+
+    train_loss_history.append(train_loss / (len(X_train) / batch_size))
+
     test_preds = mnist_net.forward(X_test)
+    validation_loss = loss(test_preds, y_test)
+    validation_loss_history.append(validation_loss.item())
+
     accuracy = (test_preds.argmax(dim=1) == y_test).float().mean()
-    test_accuracy_history.append(accuracy)
     print(accuracy)
 
-plt.plot(test_accuracy_history)
-plt.show()
+finish = time.time()
+print("time = ", finish-start)
 
-# plt.plot(test_loss_history);
+plt.plot(train_loss_history, label='Train Loss')
+plt.plot(validation_loss_history, label='Validation Loss')
+plt.legend()
+plt.show()

@@ -5,17 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="425eceec-d6ab-4497-b72d-03b1396759fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/6-7/accuracyPlots/RMSprop_100_epochs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-7/accuracyPlots/Rprop_100_epochs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-7/accuracyPlots/SGD_100_epochs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-7/accuracyPlots/adam_100Epochs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-7/answers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-7/lossFor250Epochs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-7/lossFor40Epochs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-7/lossForTrainAndValidate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-7/toGPUColab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-7/laba/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-7/zadanie/lab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-7/dz.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/dz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/MNIST/raw/t10k-images-idx3-ubyte" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/MNIST/raw/t10k-images-idx3-ubyte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/MNIST/raw/t10k-images-idx3-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/MNIST/raw/t10k-images-idx3-ubyte.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/MNIST/raw/t10k-labels-idx1-ubyte" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/MNIST/raw/t10k-labels-idx1-ubyte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/MNIST/raw/t10k-labels-idx1-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/MNIST/raw/t10k-labels-idx1-ubyte.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/MNIST/raw/train-images-idx3-ubyte" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/MNIST/raw/train-images-idx3-ubyte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/MNIST/raw/train-images-idx3-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/MNIST/raw/train-images-idx3-ubyte.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/MNIST/raw/train-labels-idx1-ubyte" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/MNIST/raw/train-labels-idx1-ubyte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/MNIST/raw/train-labels-idx1-ubyte.gz" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/MNIST/raw/train-labels-idx1-ubyte.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/accuracyPlots/RMSprop_100_epochs.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/accuracyPlots/RMSprop_100_epochs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/accuracyPlots/Rprop_100_epochs.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/accuracyPlots/Rprop_100_epochs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/accuracyPlots/SGD_100_epochs.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/accuracyPlots/SGD_100_epochs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/accuracyPlots/adam_100Epochs.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/accuracyPlots/adam_100Epochs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/answers" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/answers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/dz.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/dz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/lab.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/laba/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/lossFor250Epochs.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/lossFor250Epochs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/lossFor40Epochs.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/lossFor40Epochs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/lossForTrainAndValidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/lossForTrainAndValidate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/lossForTrainAndValidateResult.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/lossForTrainAndValidateResult.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-7/toGPUColab.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-7/zadanie/toGPUColab.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +56,13 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.dz (2)">
-    <configuration name="dz (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ахмед\6-7\zadanie" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.3">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ахмед" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,11 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6-7/laba" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2/dz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-7/laba/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -66,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dz (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ахмед" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,11 +91,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6-7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6-7/laba" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-7/dz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-7/laba/2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ахмед" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6-7/laba" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-7/laba/3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4-5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6-7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4-5/dz.py" />
+      <option name="SCRIPT_NAME" value="D:\ахмед\6-7\zadanie\dz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +158,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-7/lossForTrainAndValidate.py" />
+      <option name="SCRIPT_NAME" value="D:\ахмед\6-7\zadanie\lossForTrainAndValidate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,10 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3" />
+        <item itemvalue="Python.2" />
+        <item itemvalue="Python.1" />
         <item itemvalue="Python.dz (2)" />
         <item itemvalue="Python.lossForTrainAndValidate" />
-        <item itemvalue="Python.dz (1)" />
-        <item itemvalue="Python.dz" />
       </list>
     </recent_temporary>
   </component>
