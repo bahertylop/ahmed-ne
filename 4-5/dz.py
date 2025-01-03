@@ -101,8 +101,7 @@ for epoch in range(1000):  # Количество эпох
 
     # Каждые 100 эпох вычисляем точность на тестовой выборке
     if epoch % 100 == 0:
-        test_preds = wine_net.forward(X_test)
-        test_preds = test_preds.argmax(dim=1)  # Получаем предсказанные классы
+        test_preds = wine_net.forward(X_test).argmax(dim=1)  # Получаем предсказанные классы
         # почему номер макс жлемента является классом
         print((test_preds == y_test).float().mean())  # Выводим точность
 
