@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="425eceec-d6ab-4497-b72d-03b1396759fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/9-10/accuracyAfterChange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-10/accuracyBeforeChange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-10/lossAfterChange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-10/lossBeforeChange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-10/zad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-10/10try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-10/checkDisp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +41,8 @@
       <recent name="D:\ахмед\6-7\zadanie" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.zad">
-    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.checkDisp">
+    <configuration name="checkDisp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ахмед" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,11 +50,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6-7/laba" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9-10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-7/laba/2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9-10/checkDisp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.checkDisp" />
         <item itemvalue="Python.zad" />
         <item itemvalue="Python.lab" />
         <item itemvalue="Python.zad2" />
         <item itemvalue="Python.zad1" />
-        <item itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>
